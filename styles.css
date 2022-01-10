@@ -6,7 +6,7 @@
 body {
     margin: 0; /* removes white border around all elements */
 }
-.info-title-container, .info-cards-container{
+.info-title-container, .info-cards-container, .info-card-subcontainer{
     border: 1px solid red;
 }
 
@@ -17,6 +17,10 @@ body {
 header, .information-container {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.subtext, .nav-link, .hero-link, .info-subtext {
+    font-size: 18px;
 }
 
 /* 
@@ -30,7 +34,7 @@ header {
     padding-bottom: 20px;
 }
 
-.nav-container, .nav-links-container, .hero-container , .hero-image-container, .information-container {
+.nav-container, .nav-links-container, .hero-container , .hero-image-container, .information-container, .info-cards-container {
     display: flex;
 }
 
@@ -38,9 +42,8 @@ header {
     justify-content: space-between;
 }
 
-.subtext, a{
-    font-size: 18px;
-    color: #E5E7EB
+.subtext, .nav-link, .hero-link{
+    color: #E5E7EB;
 }
 
 .logo-text, .hero-maintext, .btn {
@@ -64,7 +67,7 @@ header {
     justify-content: space-between;
 }
 
-a {
+.nav-link, .hero-link {
  text-decoration: none;
 }
 
@@ -116,8 +119,21 @@ a {
 
 /* Information cards */
 .info-cards-container {
-    display: flex;
+    justify-content: space-around;
 }
 
+.info-card-subcontainer{
+    width: 20%;
+    height: auto;
+}
+
+.info-card {
+    width: 100%;
+    height: auto;
+}
+
+.info-subtext {
+    color: #6c6e70;
+}
 
 
