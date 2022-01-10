@@ -1,26 +1,31 @@
 * {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing:border-box;
 }
 
 body {
     margin: 0; /* removes white border around all elements */
 }
-
-/* 
-    Section 1/4 
-    GENERAL & SHARED PROPERTIES (of different sections, same sections go into its own)
-*/
-.logo-text-container, .nav-links-container {
+.info-title-container, .info-image-container{
     border: 1px solid red;
 }
 
+/* 
+    Section 1/5 
+    GENERAL & SHARED PROPERTIES (of different sections, same sections go into its own)
+*/
+
 header {
     background-color: #1F2937;
-    padding: 0 10%;
+    padding: 20px 10%;
+}
+
+.nav-container, .nav-links-container, .hero-container , .hero-image-container {
+    display: flex;
 }
 
 .nav-container, .nav-links-container, .hero-container {
-    display: flex;
+    justify-content: space-between;
 }
 
 .hero-subtext, .header-link{
@@ -28,24 +33,25 @@ header {
     color: #E5E7EB
 }
 
-.logo-text, .hero-maintext {
+.logo-text, .hero-maintext, .btn {
     color: #F9FAF8;
 }
 
 /* Navigation */
 .nav-container {
     justify-content: space-between;
-    padding: 8px 0;
 }
 
-.logo-text {
+.header-logo {
     font-size: 24px;
     margin:0;
+    width: 100px;
+    height: auto;
 }
 
 .nav-links-container {
     width: 40%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav-links-container a {
@@ -54,13 +60,32 @@ header {
 
 /* Hero */
 .hero-text-container, .hero-image-container {
-    width: 50%;
+    width: 48%;
     height: auto;
 }
 
 .hero-maintext {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.btn {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 18px;
+}
+
+.hero-image-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 100%;
+    height:auto;
 }
 
 
