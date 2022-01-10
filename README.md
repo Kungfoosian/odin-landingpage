@@ -4,6 +4,8 @@ Odin Landing page
 
 Demonstrated HTML, CSS, Flex box skills
 
+Fanpage for one of my favorite games, Satisfactory, as a Project Odin project!
+
 
 Credits:
 
