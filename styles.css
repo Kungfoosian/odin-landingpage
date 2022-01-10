@@ -14,7 +14,7 @@ body {
     color: #1F2937;
 }
 
-header, .information-container {
+header, .information-container, .testimony-container {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -110,6 +110,7 @@ header {
 .information-container {
     flex-direction: column;
 }
+
 
 /* Information title */
 .info-title-container {
