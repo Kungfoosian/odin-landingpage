@@ -6,9 +6,9 @@
 body {
     margin: 0; /* removes white border around all elements */
 }
-.info-title-container, .info-cards-container, .info-card-subcontainer{
+/* {
     border: 1px solid red;
-}
+} */
 
 .info-title-container {
     color: #1F2937;
@@ -67,7 +67,7 @@ header {
     justify-content: space-between;
 }
 
-.nav-link, .hero-link {
+.nav-link, .hero-link, .link {
  text-decoration: none;
 }
 
@@ -99,6 +99,7 @@ header {
 .hero-img {
     width: 100%;
     height:auto;
+    border-radius: 50%;
 }
 
 
@@ -130,6 +131,10 @@ header {
 .info-card {
     width: 100%;
     height: auto;
+    border-radius: 18px;
+}
+#second-card {
+    filter: hue-rotate(270deg);
 }
 
 .info-subtext {
