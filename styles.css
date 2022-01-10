@@ -143,3 +143,29 @@ header {
 }
 
 
+/* 
+    Section 3 of 5
+    GENERAL & SHARED PROPERTIES
+*/
+.quote, .quote-author {
+    margin: 0;
+}
+
+.testimony-container{
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin:0;
+}
+
+.quote-author {
+    text-align: right;
+    margin-top: 10px;
+}
