@@ -58,6 +58,7 @@ header, footer {
 /* Navigation */
 .nav-container {
     justify-content: space-between;
+    margin-bottom:50px;
 }
 
 .header-logo {
