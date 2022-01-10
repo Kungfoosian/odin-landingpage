@@ -31,8 +31,9 @@ header, .information-container, .testimony-container, .action-call-container{
     font-size: 18px;
 }
 
-.info-subtext, .action-call-subtext {
-    color: #6c6e70;
+
+.subtext, .nav-link, .hero-link, .action-call-subtext {
+    color: #E5E7EB;
 }
 
 .btn, .action-call-subcontainer {
@@ -52,10 +53,6 @@ header {
 
 .nav-container, .nav-links-container, .hero-container {
     justify-content: space-between;
-}
-
-.subtext, .nav-link, .hero-link{
-    color: #E5E7EB;
 }
 
 .logo-text, .hero-maintext, .btn {
@@ -141,6 +138,10 @@ header {
     height: auto;
 }
 
+.info-subtext{
+    color: #6c6e70;
+}
+
 .info-card {
     width: 100%;
     height: auto;
@@ -195,4 +196,8 @@ header {
 
 .action-call-btn-container {
     align-items: center;
+}
+
+.btn.action-call-btn {
+    
 }
