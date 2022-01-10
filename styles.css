@@ -6,8 +6,17 @@
 body {
     margin: 0; /* removes white border around all elements */
 }
-.info-title-container, .info-image-container{
+.info-title-container, .info-cards-container{
     border: 1px solid red;
+}
+
+.info-title-container {
+    color: #1F2937;
+}
+
+header, .information-container {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* 
@@ -17,10 +26,11 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 20px 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.nav-container, .nav-links-container, .hero-container , .hero-image-container {
+.nav-container, .nav-links-container, .hero-container , .hero-image-container, .information-container {
     display: flex;
 }
 
@@ -28,7 +38,7 @@ header {
     justify-content: space-between;
 }
 
-.hero-subtext, .header-link{
+.subtext, a{
     font-size: 18px;
     color: #E5E7EB
 }
@@ -54,7 +64,7 @@ header {
     justify-content: space-between;
 }
 
-.nav-links-container a {
+a {
  text-decoration: none;
 }
 
@@ -89,6 +99,25 @@ header {
 }
 
 
+/* 
+    Section 2 of 5
+    GENERAL & SHARED PROPERTIES
+*/
+.information-container {
+    flex-direction: column;
+}
+
+/* Information title */
+.info-title-container {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Information cards */
+.info-cards-container {
+    display: flex;
+}
 
 
 
