@@ -7,11 +7,6 @@ body {
     margin: 0; /* removes white border around all elements */
 }
 
-
-.action-call-subcontainer, .action-call-text-container, .action-call-btn-container{
-    border: 1px solid red;
-}
-
 .nav-container, .nav-links-container, .hero-container , 
 .hero-image-container, .information-container, .info-cards-container,
 .action-call-subcontainer, .action-call-btn-container {
@@ -22,7 +17,7 @@ body {
     color: #1F2937;
 }
 
-header, .information-container, .testimony-container, .action-call-container{
+header, .information-container, .testimony-container, .action-call-container, footer{
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -32,12 +27,13 @@ header, .information-container, .testimony-container, .action-call-container{
 }
 
 
-.subtext, .nav-link, .hero-link, .action-call-subtext {
+.subtext, .nav-link, .hero-link, .action-call-text, .action-call-subtext {
     color: #E5E7EB;
 }
 
 .btn, .action-call-subcontainer {
-    background-color: #3882F6;
+    background-color: #5F668C
+    ;
 }
 
 /* 
@@ -45,8 +41,8 @@ header, .information-container, .testimony-container, .action-call-container{
     GENERAL & SHARED PROPERTIES (of different sections, same sections go into its own)
 */
 
-header {
-    background-color: #1F2937;
+header, footer {
+    background-color: #FA9549;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -199,5 +195,14 @@ header {
 }
 
 .btn.action-call-btn {
-    
+    border: 1px solid white;
+}
+
+
+/* 
+    Section 5/5
+*/
+.copyright-text {
+    color:white;
+    text-align: center;
 }
