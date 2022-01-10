@@ -12,3 +12,4 @@ Logo - Satisfactory Fandom (https://satisfactory.fandom.com/wiki/FICSIT_Inc.?fil
 Hero Image - Laib Khaled (https://unsplash.com/photos/ZyQVK4tG4tY)
 First info card - Scott Graham (https://unsplash.com/photos/OQMZwNd3ThU)
 Second info card - Adam Miller (https://unsplash.com/photos/dBaz0xhCkPY)
+Third info card - Bill Jelen (https://unsplash.com/photos/NVWyN8GamCk)
